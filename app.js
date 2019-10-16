@@ -22,7 +22,7 @@ class UI {
         const list = document.querySelector("#record-list");
         if (data.length !== 0){
        let output = data.map(rec => {
-            return  `<li class="list-group-item">${rec.fistName} ${rec.lastName}, ${rec.age}-${rec.city}(${rec.country})</li>`
+            return  `<li class="list-group-item">${rec.fistName} ${rec.lastName}(${rec.gender}), ${rec.age}-${rec.city}(${rec.country})</li>`
         });
         list.innerHTML = output.join("");
         }else{
