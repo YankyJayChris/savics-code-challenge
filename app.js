@@ -37,7 +37,7 @@ class UI {
     }
 
     static filterRecord(rec){
-       const filterdRecord = rec.filter((re) => re.age > 18);
+       const filterdRecord = rec.filter((re) => re.age < 18);
        this.displayRecords(filterdRecord);
     }
 }
