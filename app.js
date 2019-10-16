@@ -31,7 +31,8 @@ class UI {
     }
 
     static addRecordTolist(rec){
-       
+        const checkbox= document.querySelector("#checkbox");
+        checkbox.checked = false;
         storedRecord.push(rec);
         this.displayRecords(storedRecord);
     }
