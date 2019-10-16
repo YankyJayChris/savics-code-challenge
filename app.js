@@ -26,7 +26,7 @@ class UI {
         });
         list.innerHTML = output.join("");
         }else{
-            list.innerHTML = '<li class="list-group-item">please add reacord</li>';
+            list.innerHTML = '<li class="list-group-item">please add record</li>';
         }
     }
 
